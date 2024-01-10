@@ -1,0 +1,35 @@
+.store{
+padding: 2rem;
+
+}
+.store h2{
+    font-size: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+.store .items-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+}
+
+.store .items-container .productImg img{
+    max-width: 100%;
+}
+
+/* ******************    add media query    ******************** */
+
+
+
+@media screen and (max-width: 720px){
+    /* stylize the grid for the small devices */
+    .store{
+        padding: 2rem .5rem;
+        }
+    .store .items-container{
+        grid-template-columns:auto auto;
+        grid-gap: 1rem;
+    }
+  }

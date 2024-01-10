@@ -1,0 +1,36 @@
+footer{
+    background:#000;
+    padding: 12rem 5rem;
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+}
+footer .location, .social_media{
+    display: grid;
+    gap:1rem;
+}
+footer .social_media ul{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+}
+footer .location a{
+    color:#FFF;
+    text-transform: uppercase;
+}
+footer .social_media ul a{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 1.5rem;
+}
+/* ******************    add media query    ******************** */
+
+
+
+@media screen and (max-width: 720px){
+    footer{
+        flex-direction: column;
+        gap:5rem;   
+    }
+  }

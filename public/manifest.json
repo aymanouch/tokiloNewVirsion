@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "tokilo store",
+  "name": "Create store for shopping",
   "icons": [
     {
       "src": "favicon.ico",

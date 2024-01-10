@@ -1,0 +1,54 @@
+/* stylize navbar */
+nav{
+    padding: 1rem 2rem;
+  }
+  nav .menuIcon{
+    display: none;
+  }
+  nav ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns: 1fr repeat(3, 100px);
+    grid-gap:5rem;
+    justify-content: center;
+  }
+  nav ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  /* stylize the big title   */
+  .bigTitle{
+    text-align: center;
+    padding:2rem;
+  }
+  .bigTitle h1{
+    font-size: 6rem;
+    padding:2rem 0;
+  }
+  .bigTitle span{
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  /* ******************add media query ******************** */
+
+  @media screen and (max-width: 720px){
+    /* list menu stylize */
+    nav ul{
+      grid-template-columns: 1fr;
+      justify-content: center;
+      overflow: hidden;
+      height: 0;
+    }
+    nav .menuIcon{
+      display: block;
+    }
+    nav ul li{
+      text-align: center;
+    }
+    /* stylize */
+    .bigTitle span{
+      font-style: italic;
+      font-size: 1.5rem;
+    }
+  }
