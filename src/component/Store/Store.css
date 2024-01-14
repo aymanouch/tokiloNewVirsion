@@ -27,6 +27,12 @@ padding: 2rem;
     color:rgb(254, 75, 75);
     font-weight: bolder;
 }
+.store .items-container .price .firstPrice{
+    color: #3b3b3b;
+    text-decoration-line: line-through;
+    font-weight:300;
+    padding:.5rem;
+}
 /* ******************    add media query    ******************** */
 
 
