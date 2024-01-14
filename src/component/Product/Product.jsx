@@ -37,19 +37,19 @@ function getInfo(){
   let fullname = document.getElementById("fullname").value;
   let phone = document.getElementById("phone").value;
   let quantity = document.getElementById("quantity").value;
-   buy( fullname, phone, quantity);
+   buy( fullname, phone, quantity,itemSelected.productName);
 }
 function scrollFunction(id) {
   const element = document.getElementById(id);
   element.scrollIntoView({ behavior: 'smooth'});
 }
 
-  async function buy(name, phone, quantity){
+  async function buy(name, phone, quantity,itemName){
     console.log(name)
    if(typeof(name)!=="undefined" && name.length>3 && phone.length>9) {
     await fetch(process.env.REACT_APP_API_SHEET, {
       method : "POST",
-      body: JSON.stringify({"data": {"phone":phone,"quantity":`${quantity.length > 0 ? quantity : "1"}`,"fullname":name}}),
+      body: JSON.stringify({"data": {"phone":phone,"quantity":`${quantity.length > 0 ? quantity : "1"}`,"fullname":name, "product name":itemName}}),
     }).then(res =>{
       if (res.status === 201){
         // SUCCESS

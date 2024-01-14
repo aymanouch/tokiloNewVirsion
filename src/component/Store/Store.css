@@ -12,14 +12,21 @@ padding: 2rem;
 .store .items-container{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 
 .store .items-container .productImg img{
     max-width: 100%;
 }
-
+.store .items-container .product-name {
+    color: #3b3b3b;
+    padding:.5rem 0 .5rem 0;
+}
+.store .items-container .price{
+    color:rgb(254, 75, 75);
+    font-weight: bolder;
+}
 /* ******************    add media query    ******************** */
 
 
