@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import './header.css';
-
+import logo from "../../img/tokil-logo.png";
 
 
 function Header({gsap}) {
@@ -23,7 +23,7 @@ function Header({gsap}) {
         <nav>
           <div className="menuIcon" onClick={()=>showMenu()}><CiMenuBurger size="2rem"/></div>
           <ul>
-            <li className='logo'><a href='/'>Logo</a></li>
+            <li className='logo'><a href='/'><img alt="tokilo" src={logo}/></a></li>
             <li><a className ='link' href='/'>Store</a></li>
             <li><a className ='link' href='/'>About</a></li>
             <li><a className ='link' href='/'>Contact</a></li>
@@ -31,7 +31,7 @@ function Header({gsap}) {
         </nav>
         <div className='bigTitle'>
           <h1>tokilo</h1>
-          <span>our website give you 50% for your first visit</span>
+          <br/><span><i>SOLDES</i> jusqu'à 60 %</span>
         </div>
       </header>
     </>

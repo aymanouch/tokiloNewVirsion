@@ -1,3 +1,6 @@
+/* font-family: 'Bungee Spice', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
 /* stylize navbar */
 nav{
     padding: 1rem 2rem;
@@ -12,24 +15,43 @@ nav{
     grid-gap:5rem;
     justify-content: center;
   }
+  nav  ul li.logo{
+    font-family: 'Roboto Slab', serif;
+  }
+  nav  ul li.logo img{
+    max-width:100px;
+  }
   nav ul li a{
     font-size: 1.3rem;
     text-decoration: none;
   }
   /* stylize the big title   */
   .bigTitle{
+    background-image: url('../../img/background.jpg');
+    background-size:100%;
     text-align: center;
-    padding:2rem;
+    padding:.5rem 2rem;
+    color:#fff;
+    height:30vh;
+    display:flex;
+    align-items: center;
   }
   .bigTitle h1{
-    font-size: 6rem;
-    padding:2rem 0;
+    font-size: 4rem;
+    padding:0 .5rem 0 0;
+    position: absolute;
+    right: 0;
+    top:0;
+    color:#000;
   }
   .bigTitle span{
     font-style: italic;
     font-size: 2rem;
-  }
 
+  }
+  .bigTitle i{
+    font-size:4rem;
+  }
   /* ******************add media query ******************** */
 
   @media screen and (max-width: 720px){
