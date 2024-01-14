@@ -25,8 +25,8 @@ function Product({itemSelected}) {
                 <form>
                     <label></label>
                     <input type="number" id="quantity" placeholder='1' name="quantity" min="1" max="5" />
-                    <input type="text"id="nom et prenom" placeholder='fullname' name="fullname"/>
-                    <input type="text" id="telephone" placeholder='phone'name="phone"/>
+                    <input type="text" id="fullname" placeholder='nome et prenom' name="fullname"/>
+                    <input type="text" id="phone" placeholder='telephone'name="phone"/>
                     <input type="text" id="address" placeholder='address'name="address"/>
                     <input type="button" value="Commander" onClick={()=> {getInfo()}}/>
                 </form>
@@ -37,9 +37,9 @@ function Product({itemSelected}) {
 function getInfo(){
   let fullname = document.getElementById("fullname").value;
   let phone = document.getElementById("phone").value;
-  let quantity = document.getElementById("quantity").value;
+  // let quantity = document.getElementById("quantity").value;
   let address = document.getElementById("address").value;
-   buy( fullname, phone, quantity,itemSelected.productName, address);
+   buy( fullname, phone, 1,itemSelected.productName, address);
 }
 function scrollFunction(id) {
   const element = document.getElementById(id);
@@ -47,7 +47,6 @@ function scrollFunction(id) {
 }
 
   async function buy(name, phone, quantity,itemName,address){
-    console.log(name)
    if(typeof(name)!=="undefined" && name.length>0 && phone.length>9) {
     await fetch(process.env.REACT_APP_API_SHEET, {
       method : "POST",
