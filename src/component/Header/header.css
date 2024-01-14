@@ -32,7 +32,7 @@ nav{
     text-align: center;
     padding:.5rem 2rem;
     color:#fff;
-    height:30vh;
+    height:60vh;
     display:flex;
     align-items: center;
   }
@@ -43,6 +43,7 @@ nav{
     right: 0;
     top:0;
     color:#000;
+    display: none;
   }
   .bigTitle span{
     font-style: italic;
@@ -69,6 +70,12 @@ nav{
       text-align: center;
     }
     /* stylize */
+    .bigTitle{
+      height:30vh;
+    }
+    .bigTitle h1{
+      display: block;
+    }
     .bigTitle span{
       font-style: italic;
       font-size: 1.5rem;

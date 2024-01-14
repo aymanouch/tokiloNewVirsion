@@ -18,6 +18,11 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     background:yellow;
+}
+.contact .whatsapp .whatsapp_container a{
+    display:inline-block;
+    width:100%;
+    height:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

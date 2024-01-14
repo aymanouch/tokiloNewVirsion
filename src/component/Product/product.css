@@ -72,6 +72,7 @@
     width:15%;
     border-color: rgb(146, 146, 146);
     outline: none;
+    display: none;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;

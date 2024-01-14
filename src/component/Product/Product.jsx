@@ -23,10 +23,10 @@ function Product({itemSelected}) {
             <div className='formulaire'>
               {errorData ? <div className='errorAlert'>المرجو ادخال اسم مكون من حرف او اكثر ورفم هاتف صحيح</div>:""}
                 <form>
-                    <label>Quantity (between 1 and 5):</label>
+                    <label></label>
                     <input type="number" id="quantity" placeholder='1' name="quantity" min="1" max="5" />
-                    <input type="text"id="fullname" placeholder='fullname' name="fullname"/>
-                    <input type="text" id="phone" placeholder='phone'name="phone"/>
+                    <input type="text"id="nom et prenom" placeholder='fullname' name="fullname"/>
+                    <input type="text" id="telephone" placeholder='phone'name="phone"/>
                     <input type="text" id="address" placeholder='address'name="address"/>
                     <input type="button" value="Commander" onClick={()=> {getInfo()}}/>
                 </form>
