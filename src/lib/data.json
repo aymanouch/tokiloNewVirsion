@@ -1,10 +1,39 @@
 {
     "product": [
-        {"id":"00001T","productName":"Piercing Art Lumineux", "desc":"this product is for stylize your", "price":"89.00Dh", "reviews" : "9", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEhzmZulWpUUAzD65FWkrlaUBU57LWB_MTnpF_XEcJrVEMx6AWiVv7nMTcrtNaXcJ1OUWqrqiFci79uIQ1Uf17k_0Kr2VmxNnx_Imq7zvAAJddzD9bdyK7H4O6vZ3pD6iMGFbYPXlyhkJ-PsNFs93e9BvurjJzhrATpftswBoNVdpOZ6xPdb0rqhibuGg9Fq"},
-        {"id":"00002T","productName":"gray Saphir Piercing", "desc":"this product is for stylize your", "price":"89.00Dh", "reviews" : "20", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgwWdnfdJ9RLsA96Aasvbo7E3JRoFCh1qef4vAJunXXfy8Nt6IN_NBDtJhWo4P594JtJXwG4xB1MprE-AKRGudYrSERG4sMRakZEAUM0qiSqZpXcyh-VMLC735c32iuM__Y4ksC_oZsIKa1S_qKzqwOe5FGRTOG3YLArNEmNsREV3kwgU7Oxzrc_7BtKqi1"},
-        {"id":"00003T","productName":"Teddy Charme Piercing", "desc":"this product is for stylize your", "price":"89.00Dh", "reviews" : "23", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgT4HIBjauDekF9tw9ue-PpC2wBIlCMbJv49GDLVWVqijPXErd9vENUbAO73u1pGrsqwU4c-qHSOfBG5As_aJw4Jrx3zcsqMeZBfgi_r4Ten2oS2txYrX6IgAxHKOj6a7S_NomZS4xXem_ev3qiVimLcURuUSHqu7ay0meYD9U7dKN8X_Wwsj2L5VWok-xs"},
-        {"id":"00004T","productName":"Rouge Passion Piercing", "desc":"this product is for stylize your", "price":"89.00Dh", "reviews" : "50", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEj6WrZsw7hUlTrtZI5r3vCMPxZPJDXhRwzqXo9Fvg7EC5JsvXC3bYO3CJyMyxPXVlAPs3ujMa8kM3Jd3aZSQ_HBG3M3_-zxk1Zp3KfAuJ5GOBSC05uIXHvir2aes7VVsERroJZMRlClLAyszSGW4y7z5exelVQ0YVwEaT7ARDc0eMIoFbUGG22byI6m4mb0"},
-        {"id":"00005T","productName":"Piercing Perles de Luxe", "desc":"this product is for stylize your", "price":"89.00Dh", "reviews" : "60", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEg5yVsjoZiKuzHBnalewCCaP2q9Di_r5B_HuDCPm9CAV5qrD2m6oN6gSvsAfwZFbUplF6w9RcR0ylxR8AbH7JwS-vy0wstl8yhO4jJgtAQTFYmvCK4lQvcUG6g-VXU7W7hUM_GUtbK5vTMy1BXIFGFyoyjC-oRXUYOMhrEVfkoVdscyOa3o5vi2ZauDq28q"},
-        {"id":"00006T","productName":"Piercing Couronne Dorée   ", "desc":"this product is for stylize your", "price":"89.50Dh", "reviews" : "56", "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgo4fgisP2FlhJrcxDVOhK6WXmBxl9fU--h-JXcpKhSooacb5JZZ8xOEbX3FExE3rkFoW0AwK6NAALI9ELVzn4Yiz7xstBpQPWBlLSUisU6UXinKyU4qH-zLfGKTE3B2BSaJ_6yZTBsSSyd_iG_Jw32uXY0b48sREyWNiIemhq6ZqIDhchv8FeVkImRGxv8"}
+        {"id":"00001T",
+        "productName":"Piercing Art Lumineux",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك.", 
+        "price":"89.00Dh", "reviews" : "9",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEhzmZulWpUUAzD65FWkrlaUBU57LWB_MTnpF_XEcJrVEMx6AWiVv7nMTcrtNaXcJ1OUWqrqiFci79uIQ1Uf17k_0Kr2VmxNnx_Imq7zvAAJddzD9bdyK7H4O6vZ3pD6iMGFbYPXlyhkJ-PsNFs93e9BvurjJzhrATpftswBoNVdpOZ6xPdb0rqhibuGg9Fq"
+    },
+        {"id":"00002T",
+        "productName":"gray Saphir Piercing",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك.",
+        "price":"89.00Dh", "reviews" : "20",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgwWdnfdJ9RLsA96Aasvbo7E3JRoFCh1qef4vAJunXXfy8Nt6IN_NBDtJhWo4P594JtJXwG4xB1MprE-AKRGudYrSERG4sMRakZEAUM0qiSqZpXcyh-VMLC735c32iuM__Y4ksC_oZsIKa1S_qKzqwOe5FGRTOG3YLArNEmNsREV3kwgU7Oxzrc_7BtKqi1"},
+        {"id":"00003T",
+        "productName":"Teddy Charme Piercing",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك",
+        "price":"89.00Dh", "reviews" : "23",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgT4HIBjauDekF9tw9ue-PpC2wBIlCMbJv49GDLVWVqijPXErd9vENUbAO73u1pGrsqwU4c-qHSOfBG5As_aJw4Jrx3zcsqMeZBfgi_r4Ten2oS2txYrX6IgAxHKOj6a7S_NomZS4xXem_ev3qiVimLcURuUSHqu7ay0meYD9U7dKN8X_Wwsj2L5VWok-xs"
+    },
+        {"id":"00004T",
+        "productName":"Rouge Passion Piercing",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك",
+        "price":"89.00Dh", "reviews" : "50",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEj6WrZsw7hUlTrtZI5r3vCMPxZPJDXhRwzqXo9Fvg7EC5JsvXC3bYO3CJyMyxPXVlAPs3ujMa8kM3Jd3aZSQ_HBG3M3_-zxk1Zp3KfAuJ5GOBSC05uIXHvir2aes7VVsERroJZMRlClLAyszSGW4y7z5exelVQ0YVwEaT7ARDc0eMIoFbUGG22byI6m4mb0"
+    },
+        {"id":"00005T",
+        "productName":"Piercing Perles de Luxe",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك",
+        "price":"89.00Dh", "reviews" : "60",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEg5yVsjoZiKuzHBnalewCCaP2q9Di_r5B_HuDCPm9CAV5qrD2m6oN6gSvsAfwZFbUplF6w9RcR0ylxR8AbH7JwS-vy0wstl8yhO4jJgtAQTFYmvCK4lQvcUG6g-VXU7W7hUM_GUtbK5vTMy1BXIFGFyoyjC-oRXUYOMhrEVfkoVdscyOa3o5vi2ZauDq28q"
+    },
+        {"id":"00006T",
+        "productName":"Piercing Couronne Dorée",
+        "desc":"تم تصميم حلقات الثدي لدينا بعناية فائقة لتقديم جاذبية لا تقلل من الراحة. مع تصاميم متنوعة ومواد فائقة التحمل وتشطيبات لا تشوبها شائبة، تجلب مجموعتنا لمسة جريئة مع التأكيد على ثقتك بنفسك",
+        "price":"89.50Dh", "reviews" : "56",
+        "img":"https://blogger.googleusercontent.com/img/a/AVvXsEgo4fgisP2FlhJrcxDVOhK6WXmBxl9fU--h-JXcpKhSooacb5JZZ8xOEbX3FExE3rkFoW0AwK6NAALI9ELVzn4Yiz7xstBpQPWBlLSUisU6UXinKyU4qH-zLfGKTE3B2BSaJ_6yZTBsSSyd_iG_Jw32uXY0b48sREyWNiIemhq6ZqIDhchv8FeVkImRGxv8"
+    }
     ]
 }

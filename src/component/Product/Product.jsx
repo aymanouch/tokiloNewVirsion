@@ -21,13 +21,14 @@ function Product({itemSelected}) {
             <div className="reviews"><Rating initialRating={4} emptySymbol={<CiStar size='2rem' color="#FF8A80"/>} fullSymbol={<IoIosStar size='2rem' color="#FF8A80"/>}/> <span>{itemSelected.reviews} reviews</span></div>
             <div className="description">{itemSelected.desc}</div>
             <div className='formulaire'>
-              {errorData ? <div className='errorAlert'>المرجو ادخال اسم مكون من اربع حروف او اكثر ورفم هاتف صحيح</div>:""}
+              {errorData ? <div className='errorAlert'>المرجو ادخال اسم مكون من حرف او اكثر ورفم هاتف صحيح</div>:""}
                 <form>
                     <label>Quantity (between 1 and 5):</label>
                     <input type="number" id="quantity" placeholder='1' name="quantity" min="1" max="5" />
                     <input type="text"id="fullname" placeholder='fullname' name="fullname"/>
                     <input type="text" id="phone" placeholder='phone'name="phone"/>
-                    <input type="button" value="buy" onClick={()=> {getInfo()}}/>
+                    <input type="text" id="address" placeholder='address'name="address"/>
+                    <input type="button" value="Commander" onClick={()=> {getInfo()}}/>
                 </form>
             </div>
         </div>
@@ -37,19 +38,20 @@ function getInfo(){
   let fullname = document.getElementById("fullname").value;
   let phone = document.getElementById("phone").value;
   let quantity = document.getElementById("quantity").value;
-   buy( fullname, phone, quantity,itemSelected.productName);
+  let address = document.getElementById("address").value;
+   buy( fullname, phone, quantity,itemSelected.productName, address);
 }
 function scrollFunction(id) {
   const element = document.getElementById(id);
   element.scrollIntoView({ behavior: 'smooth'});
 }
 
-  async function buy(name, phone, quantity,itemName){
+  async function buy(name, phone, quantity,itemName,address){
     console.log(name)
-   if(typeof(name)!=="undefined" && name.length>3 && phone.length>9) {
+   if(typeof(name)!=="undefined" && name.length>0 && phone.length>9) {
     await fetch(process.env.REACT_APP_API_SHEET, {
       method : "POST",
-      body: JSON.stringify({"data": {"phone":phone,"quantity":`${quantity.length > 0 ? quantity : "1"}`,"fullname":name, "product name":itemName}}),
+      body: JSON.stringify({"data": {"phone":phone,"quantity":`${quantity.length > 0 ? quantity : "1"}`,"fullname":name, "product name":itemName, "address":address}}),
     }).then(res =>{
       if (res.status === 201){
         // SUCCESS

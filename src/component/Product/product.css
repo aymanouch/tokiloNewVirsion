@@ -1,3 +1,4 @@
+/* font-family: 'Cairo', sans-serif; */
 .product_container{
     display: flex;
     padding: 2rem;
@@ -38,7 +39,9 @@
    padding: 1.5rem 0;
 }
 .product_container .product-container_box .description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
 }
 .product_container .product-container_box  .formulaire {
  padding:2rem 0;
@@ -80,7 +83,7 @@
     display: block;
     width: 80%;
     font-size: 1.5rem;
-    background:none;
+    background:rgb(129, 255, 183);
     border:1px solid #000;
     transition:all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
     -webkit-transition:all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
