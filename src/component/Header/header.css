@@ -14,6 +14,12 @@ nav{
     grid-template-columns: 1fr repeat(3, 100px);
     grid-gap:5rem;
     justify-content: center;
+    
+  }
+  nav ul li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column
   }
   nav  ul li.logo{
     font-family: 'Roboto Slab', serif;
@@ -24,6 +30,7 @@ nav{
   nav ul li a{
     font-size: 1.3rem;
     text-decoration: none;
+    color:#000;
   }
   /* stylize the big title   */
   .bigTitle{
@@ -62,12 +69,18 @@ nav{
       justify-content: center;
       overflow: hidden;
       height: 0;
+      align-items: center
     }
     nav .menuIcon{
       display: block;
     }
     nav ul li{
       text-align: center;
+      display: block;
+      gap: 1rem;
+    }
+    nav ul li.logo{
+      display:none;
     }
     /* stylize */
     .bigTitle{

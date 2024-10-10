@@ -21,7 +21,7 @@ function Product({itemSelected}) {
             <div className="reviews"><Rating initialRating={4} emptySymbol={<CiStar size='2rem' color="#FF8A80"/>} fullSymbol={<IoIosStar size='2rem' color="#FF8A80"/>}/> <span>{itemSelected.reviews} reviews</span></div>
             <div className="description">{itemSelected.desc}</div>
             <div className='formulaire'>
-              {errorData ? <div className='errorAlert'>المرجو ادخال اسم مكون من حرف او اكثر ورفم هاتف صحيح</div>:""}
+              {errorData ? <div className='errorAlert'>المرجو ادخال اسم مكون من حرف او اكثر ورقم هاتف صحيح</div>:""}
                 <form>
                     <label></label>
                     <input type="number" id="quantity" placeholder='1' name="quantity" min="1" max="5" />

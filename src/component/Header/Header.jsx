@@ -22,7 +22,7 @@ function Header({gsap}) {
     <header className="App-header">
         <nav>
           <div className="menuIcon" onClick={()=>showMenu()}><CiMenuBurger size="2rem"/></div>
-          <ul>
+          <ul className='menu-container'>
             <li className='logo'><a href='/'><img alt="tokilo" src={logo}/></a></li>
             <li><a className ='link' href='/'>Store</a></li>
             <li><a className ='link' href='/'>About</a></li>
