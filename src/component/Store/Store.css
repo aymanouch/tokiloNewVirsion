@@ -17,6 +17,7 @@ padding: 2rem;
     padding:2rem .5rem;
     margin: 0 auto;
     width:50%;
+    flex-wrap: wrap;
 }
 #listFillter li button{
     display: inline-block;
@@ -49,7 +50,9 @@ padding: 2rem;
     font-family: 'Roboto', sans-serif;
     justify-content: center;
 }
-
+.store .items-container .productImg{
+    text-align: center;
+}
 .store .items-container .productImg img{
     max-width: 100%;
 }

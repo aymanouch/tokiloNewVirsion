@@ -2,7 +2,7 @@ import React, {useState } from 'react'
 import "./Store.css";
 import { Link } from "react-router-dom";
 const  data = await require("../../lib/data.json");
-const filterIems=["all", "type1", "type2","type3","type4"];
+const filterIems=["all", "pack", "visage","yeux","lèvres", "mains", "palettes"];
 function Store({HandleClick}) {
    const [itemSelect, setItemSelect] =useState("all");
   return (
